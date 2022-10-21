@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content=X-UA-compatible, IE=edge" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Calculator.css" />
+    <title>MultiTheme Calculator</title>
+  </head>
+  <body id="bg" bgcolor = "#FFC2C2">
+    <script src="Calculator.js"></script>
+      <div class="loader">
+    <span class="theme">
+      <div class="theme1" onclick="blue()"></div>
+    <div class="theme2" onclick="green()"></div>
+    <div class="theme3" onclick="purple()"></div>
+    <div class="theme4" onclick="red()"></div>
+    </span>
+    <input type="text" id="result" placeholder="0" value="" readonly="true" />
+     <button id="button2"><a href="">C</a></button>
+    <div class="flex">
+       <button id="button1" onclick="nauman('0')">0</button>
+     <button id="button1" onclick="sq()">√</button>
+      <button id="button1" onclick="nauman('%')">%</button>
+      <button id="button1" onclick="nauman('22/7')">π</button>
+
+    </div>
+    <div class="flex">
+    <button id="button" onclick="nauman('9')">9</button>
+     <button id="button" onclick="nauman('8')">8</button>
+     <button id="button" onclick="nauman('7')">7</button>
+     <button id="button1" onclick="nauman('+')"> +</button>
+  </div>
+  <div class="flex">
+    <button id="button" onclick="nauman('6')">6</button>
+     <button id="button" onclick="nauman('5')">5</button>
+     <button id="button" onclick="nauman('4')">4</button>
+     <button id="button1" onclick="nauman('-')">  --</button>
+  </div>
+  <div class="flex">
+    <button id="button" onclick="nauman('3')">3</button>
+     <button id="button" onclick="nauman('2')">2</button>
+     <button id="button" onclick="nauman('1')">1</button>
+     <button id="button1" onclick="nauman('/')"> ÷ </button>
+  </div>
+  <div class="flex">
+       <button id="button1" onclick="nauman('**')">**</button>
+    <button id="button1" onclick="nauman('*')">x</button>
+     <button id="button1" onclick="nauman('.')">.</button>
+     <button id="button1" onclick="ans()"> =</button>
+     </div>
+     <marquee>
+        multi Theme calculator made by <strong>M.Nauman</strong>
+     </marquee>
+     </div>
+  </body>
+</html>
